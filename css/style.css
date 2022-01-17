@@ -118,13 +118,9 @@ ul li {
     transition: transform 0.8s;
   }
 
-  .contact .flex {
-    display: flex;
-    justify-content: right;
-  }
 
   .contact:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   
