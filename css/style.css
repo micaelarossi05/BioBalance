@@ -175,7 +175,8 @@ ul li {
      display: inline;
      border-bottom: 3px solid #B78F8F;
      position: relative;
-     color: #856969
+     color: #856969;
+     z-index: -1;
   }
 
 
