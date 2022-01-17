@@ -20,6 +20,7 @@ body {
 /* Header */
 
 .header {
+    background-color: white;
     position: fixed;
     margin: -25px;
     width: 100%;
@@ -77,14 +78,14 @@ ul li {
     width: 100%;
     height: 1px;
      text-decoration: none;
-     color: #B78F8F;
+     color: #856969;
      position: relative;
-     color: #B78F8F;
+     color: #856969;
 
 }
 
   .link:hover {
-      color: #B78F8F
+      color: #856969;
   }
 
   .link::before {
