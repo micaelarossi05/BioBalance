@@ -70,6 +70,9 @@ ul li {
     
   }
 
+
+  /* Transformación links del header */
+
   .link {
     font-weight: 450;
     left: 0;
@@ -134,12 +137,16 @@ ul li {
 
   /* Sección 1 */
 
+  /* Media queries*/
+
   @media only screen and (min-width: 320px) {
     /* Mobile */
     [class*="col-"] {
       width: 100%;
     }
 
+
+    /* Grids */
 
   .grid-container {
     display: grid;
@@ -157,7 +164,6 @@ ul li {
 }
 
 
-
   .section-uno {
       padding: 100px 30px;
       display: block;
@@ -168,7 +174,10 @@ ul li {
   h1, h2 {
      display: inline;
      border-bottom: 3px solid #B78F8F;
+     position: relative;
+     color: #856969
   }
+
 
 
   .parrafo {
