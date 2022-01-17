@@ -20,13 +20,11 @@ body {
 /* Header */
 
 .header {
-    background-color: #E1CCCB;
     position: fixed;
     margin: -25px;
     width: 100%;
     height: 71px;
     padding: 12px;
-    border-bottom: 2px solid #B78F8F;
     display: flex;
     justify-content: center;
     
@@ -78,13 +76,33 @@ ul li {
     bottom: 0;
     width: 100%;
     height: 1px;
-    display: inline;
-     border-bottom: 1.5px solid #B78F8F;
      text-decoration: none;
      color: #775B5B;
-     transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg
-      ) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-     transform-style: preserve-3d;
+     position: relative;
+     color: #B78F8F;
+
+}
+
+  .link:hover {
+      color: #B78F8F
+  }
+
+  .link::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: #B78F8F ;
+      transform: scaleX(0);
+      transform-origin: top left;
+      transition: transform 0.3s ease;
+  }
+
+  .link:hover::before {
+    transform: scaleX(1);
   }
 
   .contact {
@@ -99,11 +117,15 @@ ul li {
     transition: transform 0.8s;
   }
 
+  .contact .flex {
+    display: flex;
+    justify-content: right;
+  }
+
   .contact:hover {
     transform: scale(1.2);
   }
 
- 
   
 
   /* Fin del header  */
