@@ -201,6 +201,11 @@ ul li {
     left: 70%;
     display: flex;
     justify-content: start;
+    transition: transform 0.8s;
+  }
+
+  .principal-img:hover {
+    transform: scale(1.1);
   }
 
 
