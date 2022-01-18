@@ -145,7 +145,7 @@ ul li {
 
     /* Grids */
 
-  .grid-container {
+  .container {
     display: grid;
     grid-template-areas: "section-uno"
     "section-dos"
