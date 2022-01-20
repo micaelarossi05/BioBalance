@@ -12,6 +12,12 @@
     font-display: swap;
 }
 
+@font-face {
+  font-family: 'midnight';
+  src: url('secondary-type/Midnight-Signature-TTF.ttf') format('ttf');
+  font-display: swap;
+}
+
 body {
     font-family: 'montserrat';
     font-size: 15px;
@@ -149,6 +155,7 @@ ul li {
 
 
   h1 {
+    font-family: 'midnight';
     margin: 83px;
     font-size: 1.5em;
      display: inline;
