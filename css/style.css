@@ -29,7 +29,7 @@ body {
     padding: 39px;
     display: flex;
     justify-content: center;
-    
+    z-index: +1;
     
     
 }
@@ -40,7 +40,7 @@ body {
     width: 70px;
     height: auto;
     position: fixed;
-    z-index: 1;
+    z-index: +2;
     margin: -30px -16px;
 }
 
@@ -161,7 +161,7 @@ ul li {
 
 
   .parrafo {
-    background-color: #E1CCCB;
+    background-color: #f7eceb;
     margin: 82px;
     padding: 70px;
     width: 480px;
@@ -194,7 +194,7 @@ ul li {
      border-bottom: 3px solid #B78F8F;
      position: relative;
      color: #856969;
-     z-index: -1;
+    
   }
 
   .subtitulo-dos {
@@ -221,6 +221,24 @@ ul li {
     margin-top: -47px;
     left: 70%;
     
+  }
+
+  /* Sección 3 */
+   
+  .section {
+    background-color: #f7eceb;
+    height: 206px;
+    margin: 0px;
+    padding: 26px;
+  }
+
+
+  .parrafo-tres {
+    margin: 29px;
+    padding: 55px;
+    width: 368px;
+    height: -70px;
+    margin-top: -30px;
   }
 
 
