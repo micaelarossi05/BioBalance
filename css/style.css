@@ -72,6 +72,7 @@ ul li {
   }
 
 
+
   /* Transformación links del header */
 
   .link {
@@ -127,6 +128,7 @@ ul li {
   }
 
 
+
   .contact:hover {
     transform: scale(1.1);
     color: #E1CCCB;
@@ -141,6 +143,7 @@ ul li {
 
   .row {
     margin: 25px;
+    margin-top: 88px;
   }
 
 
@@ -165,6 +168,7 @@ ul li {
     height: -70px;
     text-align: left;
     line-height: 25px;
+    margin-top: 28px;
     
     }
 
@@ -173,7 +177,7 @@ ul li {
     position: relative;
     z-index: -1;
     margin: 38px;
-    margin-top: 83px;
+    margin-top: 15px;
     display: flex;
     justify-content: start;
   }
@@ -194,18 +198,18 @@ ul li {
   }
 
   .subtitulo-dos {
-    margin: 50px;
+    margin: 75px;
     padding: 10px;
+    margin-top: 12px;
   }
 
   .parrafo-dos {
-    margin: 10px;
-    padding: 10px;
     background-color: #E1CCCB;
     margin: 82px;
     padding: 70px;
-    width: 480px;
+    width: 368px;
     height: -70px;
+    margin-top: -62px;
   }
 
   .bloque {
