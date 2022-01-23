@@ -190,6 +190,7 @@ ul li {
     margin-top: 15px;
     display: flex;
     justify-content: start;
+    width: 100%;
   }
 
   
@@ -252,6 +253,37 @@ ul li {
   }
 
 
+/* Sección 4 */
+
+
+.titulo-cuatro {
+  margin-top: 20px ;
+}
+
+.parrafo-cuatro {
+  padding: 15px;
+  margin: 67px;
+  margin-top: 10px;
+}
+
+.col-4 {
+  width: 200px;
+}
+
+/* Sección 5 */ 
+.form {
+  background-color: #f7eceb;
+    height: 33em;
+    margin: 0px;
+}
+
+.parrafo-cinco {
+  padding: 73px;
+  margin-top: -48px;
+}
+
+
+
   .section-dos, .section-tres, .section-cuatro,
   .section-cinco {
 
@@ -262,11 +294,13 @@ ul li {
 
   footer {
     padding: 30px 30px;
+    margin-top: 45px;
+    margin-bottom: 50px;
   }
 
   .instagram {
     display: flex;
     justify-content: right;
     margin: -8px;
-    padding: 8x;
+    margin-top: -52px;
   }
