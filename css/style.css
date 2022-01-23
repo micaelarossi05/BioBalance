@@ -322,11 +322,17 @@ ul li {
 
 
 /* Sección 5 */ 
+
+.h2-align {
+  left: 5px;;
+}
+
 .form {
   background-color: #f7eceb;
     height: 40em;
     margin: 46px;
-    width: 90%
+    width: 90%;
+    text-align: center;
 }
 
 .parrafo-cinco {
@@ -344,6 +350,9 @@ ul li {
 }
 
 /* Footer */
+.text-footer {
+  text-align: left;
+}
 
   footer {
     padding: 30px 30px;
