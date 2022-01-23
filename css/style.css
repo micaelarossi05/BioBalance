@@ -13,8 +13,8 @@
 }
 
 @font-face {
-  font-family: 'midnight';
-  src: url('secondary-type/Midnight-Signature-TTF.ttf') format('ttf');
+  font-family: 'sherlyn';
+  src: url('secondary-type/Sherlyn.otf') format('otf');
   font-display: swap;
 }
 
@@ -165,7 +165,7 @@ ul li {
   }
 
   #secondary-type {
-    font-family: 'midnight';
+    font-family: 'sherlyn';
   }
 
 
