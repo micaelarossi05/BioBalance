@@ -1,14 +1,33 @@
 
-
-@media only screen and (min-width: 360px) {
-
 *{
     margin: 4px;
     padding: 3px;
     box-sizing: border-box;
 }
 
+
+/* Mobile */
+[class*="col-"] {
+  width: 100%;
 }
+
+
+@media only screen and (min-width: 768px) {
+  /* Desktop */
+  .col-1 {width: 100%;}
+  .col-2 {width: 100%;}
+  .col-3 {width: 100%;}
+  .col-4 {width: 100%;}
+  .col-5 {width: 100%;}
+  .col-6 {width: 100%;}
+  .col-7 {width: 100%;}
+  .col-8 {width: 100%;}
+  .col-9 {width: 100%;}
+  .col-10 {width: 100%;}
+  .col-11 {width: 100%;}
+  .col-12 {width: 100%;}
+}
+
 
 /* Font local */
 
@@ -25,13 +44,11 @@
 }
 
 
-@media only screen and (min-width: 360px) {
 body {
     font-family: 'montserrat';
     font-size: 15px;
     overflow-x: hidden;
     }
-} 
 
 
 /* Header */
@@ -198,7 +215,6 @@ ul li {
   }
 
 
-  @media only screen and (min-width: 360px) {
   .parrafo {
     background-color: #fdf3f2;
     margin: 30px;
@@ -212,7 +228,7 @@ ul li {
     
     }
 
-  }
+
 
 
   .principal-img {
