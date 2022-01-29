@@ -159,8 +159,8 @@ ul li {
   /*Seccion 1*/
 
   .row {
-    margin: 25px;
-    margin-top: 88px;
+    margin: 80px;
+    margin-top: -30px;
   }
 
 
@@ -217,7 +217,7 @@ ul li {
   }
 
   .col-6 {
-    margin-top: -100px;
+    margin-top: -62px;
     display: flex;
     justify-content: right;
     width: 100%;
@@ -236,7 +236,7 @@ ul li {
   }
 
   .img-dos {
-    margin-top: -67.5%
+    margin-top: -69.2%
   }
 
   
@@ -335,7 +335,8 @@ ul li {
 /* Sección 5 */ 
 
 .h2-align {
-  left: 5px;;
+  left: 5px;
+  margin-top: 124px;
 }
 
 .form {
@@ -344,11 +345,12 @@ ul li {
     margin: 46px;
     width: 90%;
     text-align: center;
+    margin-top: 80px;
 }
 
 .parrafo-cinco {
   padding: 73px;
-  margin-top: -48px;
+  margin-top: -45px;
 
 }
 
