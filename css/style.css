@@ -1,7 +1,13 @@
+
+
+@media only screen and (min-width: 360px) {
+
 *{
     margin: 4px;
     padding: 3px;
     box-sizing: border-box;
+}
+
 }
 
 /* Font local */
@@ -18,13 +24,18 @@
   font-display: swap;
 }
 
+
+@media only screen and (min-width: 360px) {
 body {
     font-family: 'montserrat';
     font-size: 15px;
     overflow-x: hidden;
-}
+    }
+} 
+
 
 /* Header */
+
 
 .header {
     background-color: white;
@@ -37,6 +48,8 @@ body {
     
     
 }
+
+
 
 
 /* Logo */
@@ -185,7 +198,7 @@ ul li {
   }
 
 
-
+  @media only screen and (min-width: 360px) {
   .parrafo {
     background-color: #fdf3f2;
     margin: 30px;
@@ -195,8 +208,11 @@ ul li {
     text-align: center;
     line-height: 25px;
     margin-top: 28px;
+  
     
     }
+
+  }
 
 
   .principal-img {
