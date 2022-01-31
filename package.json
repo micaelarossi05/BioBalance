@@ -1,0 +1,23 @@
+{
+  "name": "biobalance",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Micaela Rossi</h1>\r <h3 align=\"center\">The BioBalance project is about a landing page of a professional nutritionist, her team and work within the plant-based diet.</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micaelarossi05/BioBalance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micaelarossi05/BioBalance/issues"
+  },
+  "homepage": "https://github.com/micaelarossi05/BioBalance#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

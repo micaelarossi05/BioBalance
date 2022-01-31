@@ -1,0 +1,20 @@
+/* Variables */
+
+* {
+    margin: 4px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('tipography/Montserrat-Regular.ttf') format('ttf');
+    font-display: swap;
+}
+ 
+@font-face {
+  font-family: 'bathey';
+  src: url('secondary-type/bathey') format('otf');
+  font-display: swap;
+}

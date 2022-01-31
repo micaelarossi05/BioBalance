@@ -1,0 +1,19 @@
+/*Media queries*/ 
+
+/*Pantalla mobile*/ 
+
+@media (max-width: 400px) {
+    nav, .container-fluid, div {
+        width: 100%;
+        margin: -4px;
+        overflow-x: hidden;
+
+        .principal-img {
+        position:rela;
+        bottom:5px;
+        right:10px;
+
+        }
+    }
+
+}

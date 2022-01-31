@@ -1,0 +1,15 @@
+/*Mixins*/ 
+
+@mixin flex ($principal, $cruzado, $wrap) {
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
+}
+
+
+@mixin position ($absolute, $relative, $fixed) {
+    position: $absolute;
+    position: $relative;
+    position: $fixed;
+}

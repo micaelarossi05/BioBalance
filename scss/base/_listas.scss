@@ -1,0 +1,97 @@
+/* Tamaño de fuentes*/
+
+$font-principal: 15px;
+$font-secondary: 1.5em;
+$font-title: 25px;
+
+body {
+    font-size: $font-principal;
+    font-family: 'montserrat';
+    overflow-x: hidden;
+}
+
+h1 h2 {
+    font-size: $font-secondary;
+    font-family: 'bathey';
+}
+
+/*Colores*/
+
+$color-principal: #B78F8F;
+$color-secondary: #856969;
+$color-button: #E1CCCB;
+$color-button-back: #775B5B;
+$color-background: white;
+$color-link: #d3acac;
+$color-parrafo:#fdf3f2 ;
+$color-parrafo-dos: #f7eceb;
+
+
+.header{
+    background-color: $color-background;
+}
+
+a{
+    color: $color-secondary;
+}
+
+ul li{
+    color: $color-principal;
+}
+
+.list{
+    color: $color-principal;
+}
+
+ .link:hover{
+    color: $color-secondary;
+}
+
+.link::before {
+    background-color: $color-link;
+}
+
+
+.contact {
+    background-color: $color-button-back;
+    color: $color-button;
+}
+
+.contact:hover {
+    color: $color-button;
+
+}
+
+.h1 .secondary-type {
+     font-family: 'bathey';
+     font-size: $font-secondary;
+     color: $color-secondary;
+}
+
+.parrafo {
+     background-color: $color-parrafo;
+}
+
+.parrafo-sec-dos {
+    background-color: $color-parrafo-dos;
+}
+
+.parrafo-sec-tres {
+    background-color: $color-parrafo-dos;
+}
+
+.parrafo-dos{
+    background-color: $color-parrafo;
+}
+
+h2{
+    font-size: $font-title;
+}
+
+.section {
+    background-color: $color-parrafo-dos;
+}
+
+.form {
+    background-color: $color-parrafo-dos;
+}
