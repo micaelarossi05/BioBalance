@@ -381,7 +381,6 @@ h2 {
     overflow-x: hidden;
   }
   nav .principal-img, .container-fluid .principal-img, div .principal-img {
-    position: rela;
     bottom: 5px;
     right: 10px;
   }
