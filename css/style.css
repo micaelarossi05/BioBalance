@@ -65,11 +65,12 @@
   transition: transform 0.8s;
   margin: 13px;
   padding: 4.5px;
+  text-align: center;
 }
 .header .contact:hover {
   transform: scale(1.1);
   color: #E1CCCB;
-  padding: 4.5px;
+  text-align: center;
 }
 
 .logo {
@@ -147,12 +148,13 @@ h1 {
   justify-content: right;
   margin: 20px;
   padding: 48px;
-  margin-right: -22px;
+  margin-right: 7px;
 }
 
 .img-dos {
   margin-top: -69.2%;
-  margin-left: -27px;
+  margin-left: 9px;
+  width: 804px;
 }
 
 /* Sección 2 */
@@ -210,7 +212,40 @@ h2 {
   margin: 30px;
   padding: 55px;
   width: 432px;
-  margin-top: -67px;
+  margin-top: -869px;
+}
+
+.img-ebook-portada {
+  width: 125px;
+  margin: 75%;
+  display: flex;
+  margin-top: -82.5px;
+  justify-content: flex-end;
+  transition: transform 0.8s;
+}
+
+.img-ebook-portada:hover {
+  transform: scale(1.2);
+}
+
+.button {
+  display: block;
+  width: 179px;
+  height: 41px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 50px;
+  transition: transform 0.8s;
+  margin: 34px;
+  padding: 9.5px;
+  margin-left: 9px;
+  text-align: center;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  color: #E1CCCB;
+  text-align: center;
 }
 
 /* Sección 4 */
@@ -219,37 +254,50 @@ h2 {
 }
 
 .titulo-cuatro {
-  margin-top: 20px;
-  margin: -63px;
+  margin: 6px;
+  margin-left: -42px;
 }
 
 .parrafo-cuatro {
-  margin: -69px;
-  margin-top: -58px;
-  padding: 90px;
+  margin: -62px;
+  margin-top: -63px;
+  padding: 104px;
+}
+
+.parrafo-cuatro-bis {
+  margin: -62px;
+  margin-top: -142px;
+  padding: 104px;
 }
 
 .col-4 {
   width: 200px;
 }
 
+.img-cosmetica {
+  width: 329px;
+  margin-top: -15px;
+}
+
 /* Sección 5 */
 .h2-align {
-  left: 5px;
-  margin-top: 124px;
+  left: -51px;
+  margin-top: 97px;
 }
 
 .form {
-  height: 40em;
+  height: 31em;
   margin: 46px;
   width: 90%;
   text-align: center;
-  margin-top: 80px;
+  margin-top: -55px;
+  padding: 15px;
 }
 
 .parrafo-cinco {
-  padding: 73px;
-  margin-top: -45px;
+  padding: -13px;
+  margin-top: 24px;
+  margin-right: 20px;
 }
 
 .section-dos, .section-tres, .section-cuatro,
@@ -338,6 +386,15 @@ ul li {
   color: #E1CCCB;
 }
 
+.button {
+  background-color: #775B5B;
+  color: #E1CCCB;
+}
+
+.button:hover {
+  color: #E1CCCB;
+}
+
 .h1 .secondary-type {
   font-family: "bathey";
   font-size: 1.5em;
@@ -417,7 +474,7 @@ h2 {
   .header {
     margin-right: 122px;
     width: 424px;
-    height: 414px;
+    height: 141px;
     margin-bottom: 414px;
     overflow-y: hidden;
     position: fixed;
