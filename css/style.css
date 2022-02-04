@@ -78,6 +78,7 @@
   z-index: 4;
   margin: -38px;
   margin-top: -5px;
+  background: white;
 }
 
 ul li {
@@ -92,6 +93,52 @@ ul li {
   margin-top: -30px;
 }
 
+.intro {
+  text-align: right;
+  font-weight: 600;
+  font-size: 23px;
+  padding: 55px;
+  margin-left: -239px;
+  margin-top: 22px;
+  margin-right: 11px;
+}
+
+.recursos-uno {
+  width: 316px;
+  margin-top: 11px;
+  height: auto;
+  margin-left: -10px;
+  animation: recursosUno 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes recursosUno {
+  0% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(8deg);
+  }
+  15% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(22deg);
+  }
+  25% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(16deg);
+  }
+  50% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(35deg);
+  }
+  100% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(8deg);
+  }
+}
 h1 {
   margin: 83px;
   display: inline;
@@ -354,7 +401,11 @@ h1 h2 {
 
 /*Colores*/
 .header {
-  background-color: white;
+  background: white;
+}
+
+.intro {
+  color: #856969;
 }
 
 a {
@@ -432,7 +483,7 @@ h2 {
 /*Media queries*/
 /*Pantalla mobile*/
 @media (max-width: 400px) {
-  nav, .container-fluid, .parrafo {
+  .container-fluid, .parrafo {
     overflow-x: hidden;
     display: grid;
     flex-direction: column;
@@ -445,7 +496,7 @@ h2 {
     margin: 29px;
     margin-top: 15px;
   }
-  nav .principal-img, .container-fluid .principal-img, .parrafo .principal-img {
+  .container-fluid .principal-img, .parrafo .principal-img {
     bottom: 5px;
     right: 10px;
     width: 50%;
@@ -453,9 +504,9 @@ h2 {
 }
 @media (max-width: 400px) {
   .navbar-toggler-icon {
-    margin: 324px;
-    margin-right: 44px;
-    margin-top: 5em;
+    margin: 327px;
+    margin-right: -598px;
+    margin-top: 6em;
   }
 }
 @media (max-width: 400px) {
@@ -469,27 +520,50 @@ h2 {
     display: inline-block;
     transition: transform 0.8s;
   }
+
+  .navbar-toggler:focus {
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+  }
 }
 @media (max-width: 400px) {
   .header {
     margin-right: 122px;
     width: 424px;
-    height: 141px;
+    height: 400px;
     margin-bottom: 414px;
     overflow-y: hidden;
     position: fixed;
+    justify-content: center;
+    margin-left: -506px;
+    width: 976px;
+    background: linear-gradient(180deg, #FFFFFF 35.3%, rgba(255, 255, 255, 0.078125) 29.92%, rgba(255, 255, 255, 0) 100%);
   }
 }
 @media (max-width: 400px) {
   .logo {
-    margin-top: 66px;
-    margin-left: -238px;
+    margin-top: 65px;
+    margin-left: -189px;
   }
 }
 @media (max-width: 400px) {
   .header .navbar-nav {
+    width: 352px;
+    height: 297px;
     display: flex;
-    margin-left: -25em;
+    margin-right: -39px;
+    margin-top: 83px;
+    justify-content: center;
+  }
+
+  .navbar-nav {
+    position: relative;
+    background: white;
+  }
+
+  .list {
+    display: block;
   }
 }
 /*Mixins*/
