@@ -93,57 +93,10 @@ ul li {
   margin-top: -30px;
 }
 
-.intro {
-  text-align: right;
-  font-weight: 600;
-  font-size: 23px;
-  padding: 55px;
-  margin-left: -239px;
-  margin-top: 22px;
-  margin-right: 11px;
-}
-
-.recursos-uno {
-  width: 316px;
-  margin-top: 11px;
-  height: auto;
-  margin-left: -10px;
-  animation: recursosUno 4s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes recursosUno {
-  0% {
-    width: 300px;
-    margin-left: -1px;
-    transform: rotate(8deg);
-  }
-  15% {
-    width: 300px;
-    margin-left: -1px;
-    transform: rotate(22deg);
-  }
-  25% {
-    width: 300px;
-    margin-left: -1px;
-    transform: rotate(16deg);
-  }
-  50% {
-    width: 300px;
-    margin-left: -1px;
-    transform: rotate(35deg);
-  }
-  100% {
-    width: 300px;
-    margin-left: -1px;
-    transform: rotate(8deg);
-  }
-}
-h1 {
-  margin: 83px;
-  display: inline;
-  position: relative;
-  z-index: -1;
+.recursos-dos {
+  width: 135px;
+  margin-left: 687px;
+  margin-bottom: -106px;
 }
 
 .secondary-type {
@@ -191,8 +144,6 @@ h1 {
   text-align: left;
   line-height: 25px;
   margin-top: 28px;
-  display: flex;
-  justify-content: right;
   margin: 20px;
   padding: 48px;
   margin-right: 7px;
@@ -226,6 +177,7 @@ h2 {
 }
 
 .parrafo-dos {
+  font-weight: 500;
   margin: 15px;
   padding: 35px;
   width: 368px;
@@ -256,15 +208,16 @@ h2 {
 }
 
 .parrafo-tres {
+  font-weight: 500;
   margin: 30px;
   padding: 55px;
   width: 432px;
-  margin-top: -869px;
+  margin-top: -43em;
 }
 
 .img-ebook-portada {
   width: 125px;
-  margin: 75%;
+  margin: 506px;
   display: flex;
   margin-top: -82.5px;
   justify-content: flex-end;
@@ -283,9 +236,9 @@ h2 {
   font-size: 14px;
   border-radius: 50px;
   transition: transform 0.8s;
-  margin: 34px;
+  margin: -171px;
   padding: 9.5px;
-  margin-left: 9px;
+  margin-left: 53em;
   text-align: center;
 }
 
@@ -342,6 +295,8 @@ h2 {
 }
 
 .parrafo-cinco {
+  text-align: left;
+  font-weight: 500;
   padding: -13px;
   margin-top: 24px;
   margin-right: 20px;
@@ -404,8 +359,12 @@ h1 h2 {
   background: white;
 }
 
-.intro {
+h1 {
   color: #856969;
+}
+
+.intro {
+  color: #B78F8F;
 }
 
 a {
@@ -446,7 +405,7 @@ ul li {
   color: #E1CCCB;
 }
 
-.h1 .secondary-type {
+h2 .secondary-type {
   font-family: "bathey";
   font-size: 1.5em;
   color: #856969;
@@ -466,6 +425,15 @@ ul li {
 
 .parrafo-dos {
   background-color: #fdf3f2;
+  color: #856969;
+}
+
+.parrafo-tres {
+  color: #856969;
+}
+
+.parrafo-cinco {
+  color: #856969;
 }
 
 h2 {
@@ -567,5 +535,62 @@ h2 {
   }
 }
 /*Mixins*/
+/* Intro */
+h1 {
+  font-weight: 600;
+  margin-left: -239px;
+  margin-right: 69px;
+  font-size: 30px;
+  padding: -6px;
+  margin-top: 26px;
+  text-align: right;
+}
+
+.intro {
+  text-align: right;
+  font-weight: 500;
+  font-size: 23px;
+  padding: 55px;
+  margin-left: -239px;
+  margin-top: -38px;
+  margin-right: 11px;
+}
+
+.recursos-uno {
+  width: 316px;
+  margin-top: 11px;
+  height: auto;
+  margin-left: -10px;
+  animation: recursosUno 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes recursosUno {
+  0% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(8deg);
+  }
+  15% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(22deg);
+  }
+  25% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(16deg);
+  }
+  50% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(35deg);
+  }
+  100% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(8deg);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
