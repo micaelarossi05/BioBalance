@@ -12,8 +12,47 @@
  
  
   .parrafo-tres {
+    font-weight: 500;
     margin: 30px;
     padding: 55px;
     width: 432px;
-    margin-top: -67px;
+    margin-top: -43em;
+  }
+
+
+  .img-ebook-portada {
+    width: 125px;
+    margin: 506px;
+    display: flex;
+    margin-top: -82.5px;
+    justify-content: flex-end;
+    transition: transform 0.8s;
+  }
+
+  .img-ebook-portada:hover {
+    transform: scale(1.2);
+  }
+
+  .button {
+    display: block;
+    width: 179px;
+    height: 41px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 50px;
+    transition: transform 0.8s;
+    margin: -171px;
+    padding: 9.5px;
+    margin-left: 53em;
+    text-align: center;
+
+        
+  }
+
+
+  .button:hover {
+      transform: scale(1.1);
+      color: #E1CCCB;
+      text-align: center;
+    
   }

@@ -3,17 +3,120 @@
 /*Pantalla mobile*/ 
 
 @media (max-width: 400px) {
-    nav, .container-fluid, div {
-        width: 100%;
-        margin: -4px;
+     .container-fluid, .parrafo {
         overflow-x: hidden;
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 331px;
+        height: auto;
+        padding: 24px;
+        margin: 29px;
+        margin-top: 15px;
+
 
         .principal-img {
-        position:rela;
         bottom:5px;
         right:10px;
+        width: 50%;
 
         }
     }
 
+}
+
+
+@media (max-width: 400px) {
+    .navbar-toggler-icon {
+    margin: 327px;
+    margin-right: -598px;
+    margin-top: 6em;
+}
+        
+}
+
+@media (max-width: 400px) {
+#navbarNav {
+      box-shadow: none;
+   }
+}
+
+
+
+@media (max-width: 400px) {
+    .navbar-toggler {
+        position: absolute;
+        display: inline-block;
+        transition: transform 0.8s;
+      
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        box-shadow: none;
+        outline: none;
+       
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .header {
+        margin-right: 122px;
+        width: 424px;
+        height: 400px;
+        margin-bottom: 414px;
+        overflow-y: hidden;
+        position: fixed;
+        justify-content: center;
+        margin-left: -506px;
+        width: 976px;
+        background: linear-gradient(180deg, #FFFFFF 35.3%,
+         rgba(255, 255, 255, 0.078125) 29.92%,
+         rgba(255, 255, 255, 0) 100%);
+        
+
+        }
+
+        
+    }
+
+
+    @media (max-width: 400px) {
+        .logo{
+            margin-top: 65px;
+            margin-left: -189px;
+   
+        }
+    }
+
+
+    @media (max-width: 400px) {
+    .header .navbar-nav {
+        width: 352px;
+        height: 297px;
+        display: flex;
+        margin-right: -39px;
+        margin-top: 83px;
+        justify-content: center;
+        
+ 
+    }
+
+
+    .navbar-nav {
+        position: relative;
+        background: white;
+
+        
+    }
+
+    .list {
+        display: block;
+
+    }
+    
 }

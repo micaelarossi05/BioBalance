@@ -1,0 +1,74 @@
+/* Intro */ 
+
+
+h1 {
+    font-weight: 600;
+    margin-left: -239px;
+    margin-right: 69px;
+    font-size: 30px;
+    padding: -6px;
+    margin-top: 26px;
+    text-align: right;
+  }
+
+  .intro {
+    text-align: right;
+    font-weight: 500;
+    font-size: 23px;
+    padding: 55px;
+    margin-left: -239px;
+    margin-top: -38px;
+    margin-right: 11px;
+
+  }
+
+
+  .recursos-uno {
+    width: 316px;
+    margin-top: 11px;
+    height: auto;
+    margin-left: -10px;
+    animation: recursosUno 7s;
+    animation-iteration-count: infinite;
+  
+  }
+
+  
+  @keyframes recursosUno {
+   0% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(8deg);
+   }
+
+   15% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(22deg);
+
+   }
+   
+   25% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(16deg);
+
+   }
+
+
+   50% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(35deg);
+
+   }
+
+
+   100% {
+    width: 300px;
+    margin-left: -1px;
+    transform: rotate(8deg);
+   }
+
+    
+  }

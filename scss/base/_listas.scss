@@ -28,7 +28,15 @@ $color-parrafo-dos: #f7eceb;
 
 
 .header{
-    background-color: $color-background;
+ background: $color-background;
+}
+
+h1 {
+color: $color-secondary;
+}
+
+.intro {
+    color: $color-principal;
 }
 
 a{
@@ -62,7 +70,19 @@ ul li{
 
 }
 
-.h1 .secondary-type {
+
+.button {
+    background-color: $color-button-back;
+    color: $color-button;
+}
+
+.button:hover {
+    color: $color-button;
+
+}
+
+
+h2 .secondary-type {
      font-family: 'bathey';
      font-size: $font-secondary;
      color: $color-secondary;
@@ -82,6 +102,15 @@ ul li{
 
 .parrafo-dos{
     background-color: $color-parrafo;
+    color: $color-secondary;
+}
+
+.parrafo-tres {
+    color: $color-secondary;
+}
+
+.parrafo-cinco {
+    color: $color-secondary;
 }
 
 h2{
