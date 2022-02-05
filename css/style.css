@@ -103,8 +103,9 @@ ul li {
   font-family: "bathey";
   font-size: 36px;
   position: relative;
-  top: 41px;
+  top: 45px;
   z-index: 1;
+  margin-left: 26px;
 }
 
 .parrafo {
@@ -156,13 +157,14 @@ ul li {
 }
 
 /* Sección 2 */
-h2 {
+.h2-equipo {
   font-family: "bathey";
   position: relative;
-  top: -4px;
+  top: -43px;
   left: 76px;
   margin-top: 28px;
   z-index: 1;
+  margin-left: -114px;
 }
 
 .top-left {
@@ -178,7 +180,7 @@ h2 {
 
 .parrafo-dos {
   font-weight: 500;
-  margin: 15px;
+  margin: -36px;
   padding: 35px;
   width: 368px;
   height: -70px;
@@ -197,6 +199,15 @@ h2 {
 }
 
 /* Sección 3 */
+.h2-e {
+  font-family: "bathey";
+  position: relative;
+  top: -4px;
+  left: 76px;
+  margin-top: 28px;
+  z-index: 1;
+}
+
 .img-ebook {
   margin: -21px;
 }
@@ -249,6 +260,15 @@ h2 {
 }
 
 /* Sección 4 */
+.h2-estetica {
+  font-family: "bathey";
+  font-size: 27px;
+  position: relative;
+  top: 0px;
+  z-index: 1;
+  margin-left: 26px;
+}
+
 .container-fluid {
   margin-top: 70px;
 }
@@ -280,9 +300,14 @@ h2 {
 }
 
 /* Sección 5 */
-.h2-align {
+.h2-contacto {
+  font-family: "bathey";
+  font-size: 27px;
+  position: relative;
+  top: 110px;
+  z-index: 1;
+  margin-left: 26px;
   left: -51px;
-  margin-top: 97px;
 }
 
 .form {
@@ -298,7 +323,7 @@ h2 {
   text-align: left;
   font-weight: 500;
   padding: -13px;
-  margin-top: 24px;
+  margin-top: 132px;
   margin-right: 20px;
 }
 
@@ -465,9 +490,9 @@ h2 {
     margin-top: 15px;
   }
   .container-fluid .principal-img, .parrafo .principal-img {
-    bottom: 5px;
-    right: 10px;
-    width: 50%;
+    bottom: 62px;
+    right: -89px;
+    max-width: 353px;
   }
 }
 @media (max-width: 400px) {
@@ -534,6 +559,62 @@ h2 {
     display: block;
   }
 }
+/*Intro*/
+@media (max-width: 400px) {
+  h1 {
+    display: contents;
+  }
+
+  .intro {
+    display: contents;
+  }
+}
+/*Sección 1*/
+@media (max-width: 400px) {
+  .secondary-type {
+    display: flex;
+    justify-content: center;
+    margin-right: 31px;
+    margin-bottom: 29px;
+  }
+
+  .parrafo {
+    margin-left: 10em;
+  }
+
+  .parrafo-sec-dos {
+    width: 22em;
+    margin-top: -14px;
+  }
+
+  .parrafo-sec-tres {
+    width: 24em;
+    margin-top: 62px;
+    margin-right: 222px;
+  }
+
+  .w-50 {
+    max-width: 335px;
+    margin-left: 220px;
+    margin-top: 549px;
+  }
+}
+/*Sección 2*/
+@media (max-width: 400px) {
+  .h2-equipo {
+    margin-top: 84px;
+    margin-left: 348px;
+  }
+
+  .parrafo-dos {
+    margin-top: -63px;
+    margin-left: 376px;
+  }
+
+  .h-auto {
+    max-width: fit-content;
+  }
+}
 /*Mixins*/
 /* Intro */
 h1 {
@@ -552,7 +633,7 @@ h1 {
   font-size: 23px;
   padding: 55px;
   margin-left: -239px;
-  margin-top: -38px;
+  margin-top: -61px;
   margin-right: 11px;
 }
 
