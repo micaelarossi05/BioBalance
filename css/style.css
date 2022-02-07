@@ -55,18 +55,6 @@
 .header .link:hover::before {
   transform: scaleX(1);
 }
-.header .contact {
-  display: block;
-  width: 121px;
-  height: 29px;
-  text-decoration: none;
-  font-size: 14px;
-  border-radius: 50px;
-  transition: transform 0.8s;
-  margin: 13px;
-  padding: 4.5px;
-  text-align: center;
-}
 .header .contact:hover {
   transform: scale(1.1);
   color: #E1CCCB;
@@ -237,20 +225,6 @@ ul li {
 
 .img-ebook-portada:hover {
   transform: scale(1.2);
-}
-
-.button {
-  display: block;
-  width: 179px;
-  height: 41px;
-  text-decoration: none;
-  font-size: 14px;
-  border-radius: 50px;
-  transition: transform 0.8s;
-  margin: -171px;
-  padding: 9.5px;
-  margin-left: 53em;
-  text-align: center;
 }
 
 .button:hover {
@@ -672,6 +646,27 @@ h1 {
     margin-left: -1px;
     transform: rotate(8deg);
   }
+}
+/*Extends*/
+.button, .contact {
+  display: block;
+  width: 121px;
+  height: 29px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 50px;
+  transition: transform 0.8s;
+  margin: 13px;
+  padding: 4.5px;
+  text-align: center;
+}
+
+.button {
+  width: 179px;
+  height: 41px;
+  margin: -171px;
+  padding: 9.5px;
+  margin-left: 53em;
 }
 
 /*# sourceMappingURL=style.css.map */
