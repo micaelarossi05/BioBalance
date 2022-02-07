@@ -1,4 +1,13 @@
 /* Sección 3 */
+
+.h2-e {
+  font-family: "bathey";
+    position: relative;
+    top: -4px;
+    left: 76px;
+    margin-top: 28px;
+    z-index: 1;
+}
  
 .img-ebook {
     margin: -21px;
@@ -33,21 +42,7 @@
     transform: scale(1.2);
   }
 
-  .button {
-    display: block;
-    width: 179px;
-    height: 41px;
-    text-decoration: none;
-    font-size: 14px;
-    border-radius: 50px;
-    transition: transform 0.8s;
-    margin: -171px;
-    padding: 9.5px;
-    margin-left: 53em;
-    text-align: center;
-
-        
-  }
+  
 
 
   .button:hover {

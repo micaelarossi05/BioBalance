@@ -1,0 +1,29 @@
+/*Extends*/ 
+
+%buttons {
+          display: block;
+          width: 121px;
+          height: 29px;
+          text-decoration: none;
+          font-size: 14px;
+          border-radius: 50px;
+          transition: transform 0.8s;
+          margin: 13px;
+          padding: 4.5px;
+          text-align: center;
+
+}
+
+
+.contact {
+    @extend %buttons;
+}
+
+.button {
+    @extend %buttons;
+    width: 179px;
+    height: 41px;
+    margin: -171px;
+    padding: 9.5px;
+    margin-left: 53em;
+}
