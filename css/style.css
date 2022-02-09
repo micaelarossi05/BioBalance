@@ -323,7 +323,7 @@ input, textarea {
   margin-top: 15px;
 }
 
-.submit:hover {
+#mailto:hover {
   transform: scale(1.1);
   color: #E1CCCB;
   text-align: center;
@@ -483,7 +483,7 @@ form {
   background-color: #d3acac;
 }
 
-.submit {
+#mailto {
   background-color: #775B5B;
   color: #E1CCCB;
 }
@@ -772,7 +772,7 @@ form {
     margin-bottom: -7px;
   }
 
-  .submit {
+  #mailto {
     display: block;
     width: 121px;
     height: 29px;
@@ -857,7 +857,7 @@ h1 {
   }
 }
 /*Extends*/
-.submit, .button, .contact {
+#mailto, .button, .contact {
   display: block;
   width: 121px;
   height: 29px;
@@ -878,7 +878,7 @@ h1 {
   margin-left: 53em;
 }
 
-.submit {
+#mailto {
   margin-left: 324px;
   margin-top: 34px;
 }
