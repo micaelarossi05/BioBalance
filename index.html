@@ -289,23 +289,25 @@
 
         <!-- Formulario-->
             <div>
-                <form action="">
+                <form action="mailto:micaelarossi26@gmail.com" method="get">
                     <p class="text">Nombre:</p>
-                    <input type="text" placeholder="Nombre" class="label">
+                    <input type="name" name="name" placeholder="Nombre" class="label" required>
                     
                     <p class="text">Email:</p>
-                    <input type="email" placeholder="aaa@gmail.com" name="email" class="label">
+                    <input type="email" name="email" placeholder="aaa@gmail.com" name="email" class="label" required>
                     </label>
                     <p class="text">Tu mensaje:</p>
-                    <textarea placeholder="Escribí tu mensaje" class="label"></textarea>
+                    <textarea placeholder="Escribí tu mensaje" name="message" class="label" required></textarea>
                     </label> <br>
                     <div class="informacion">¿Querés recibir info sobre nosotros?
                     <input type="checkbox" name="acepta" value="1"></div>
-                    <input type="submit" value="Enviar" class="submit">
+                    <a href="mailto:micaelarossi26@gmail.com" id="mailto">Enviar</a>
                 </form>
+                
         </div>
 
         </div>
+
        
 
 
